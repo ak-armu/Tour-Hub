@@ -74,3 +74,163 @@
 .explore-form select{
     margin-left: 10px;
 }
+
+.tours-section{
+    display: flex;
+    width: 80%;
+    margin: 0px auto;
+}
+
+.tours-description{
+    padding: 25px;
+   display: flex;
+   flex-direction: column;
+    width: 40%;
+    justify-content: space-between;
+}
+.tours-description li{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.read-more-btn{
+    width: 90px;
+    padding: 10px;
+    background-color: orangered;
+    border: 1px solid white;
+    border-radius: 7px;
+}
+.tours-section-image{
+    width: 60%;
+}
+
+.tours-section-image img{
+    width: 100%;
+    height: 400px;
+   
+}
+
+.destination-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 70px auto;
+    width: 80%;
+    
+}
+
+.destination-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.destination-section img{
+    height: 300px;
+}
+
+.destination-row-1{
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+    height: 400px;
+    gap: 10px;
+}
+.maldive-img{
+    background-image: url('../images/Rectangle\ 5.png');
+    width: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    text-align: center;
+    background-size: cover;
+    color: white;
+    
+}
+
+.indonesia-img{
+    background-image: url('../images/Rectangle\ 8.png');
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     text-align: center;
+     background-size: cover;
+     color: white;
+     
+}
+
+.destination-row-2{
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+    height: 400px;
+    gap: 10px;
+}
+
+.srilanka-img{
+    background-image: url('../images/Rectangle\ 6.png');
+    width: 32%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     text-align: center;
+     background-size: cover;
+     color: white;
+     
+}
+
+.north-america-img{
+    background-image: url('../images/Rectangle\ 7.png');
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     text-align: center;
+     background-size: cover;
+     color: white;
+}
+
+.kashmir-img{
+    background-image: url('../images/Rectangle\ 6.png');
+    width: 28%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     text-align: center;
+     background-size: cover;
+     color: white;
+}
+
+.destination-row-3{
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+    height: 400px;
+    gap: 10px;
+}
+
+.bangladesh-img{
+    background-image: url('../images/Rectangle\ 10.png');
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     text-align: center;
+     background-size: cover;
+     color: white;
+}
+
+.bandarban-img{
+    background-image: url('../images/Rectangle\ 6.png');
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     text-align: center;
+     background-size: cover;
+     color: white;
+}
