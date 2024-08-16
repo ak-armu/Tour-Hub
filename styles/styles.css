@@ -67,14 +67,34 @@
 }
 
 .explore-form{
-    background-color: honeydew;
-    padding: 5px 10px;
+    background-color:azure;
+    padding: 10px 20px;
+    border-radius: 15px;
 }
 
-.explore-form select{
-    margin-left: 10px;
+
+
+form input{
+    padding: 5px;
+    border: 1px solid orangered;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
 }
 
+form select{
+    padding: 5px;
+    border: 1px solid orangered;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+}
+
+.search-btn{
+    background-color: orangered;
+    color: white;
+    font-size: 18px;
+}
 .tours-section{
     display: flex;
     width: 80%;
@@ -233,4 +253,111 @@
      text-align: center;
      background-size: cover;
      color: white;
+}
+
+.about-us-section{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    margin: 30px auto;
+}
+
+.about-us-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.about-us-section img{
+    width: 90px;
+}
+.services-card{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.hotel-div{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: rgb(2, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    gap: 10px;
+    
+    
+}
+
+.service-div{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: rgb(109, 228, 79);
+    padding: 10px;
+    border-radius: 10px;
+    gap: 10px;
+
+}
+
+.price-div{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: cadetblue;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.subscription-section{
+    width: 80%;
+    height: 300px;
+    margin: 30px auto;
+    display: flex;
+}
+
+.subscription-part{
+    width: 40%;
+    border: 1px solid orangered;
+    border-radius: 7px;
+    padding: 15px;
+
+
+}
+
+.subscription-form input{
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+}
+
+.subscription-btn{
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+
+.discount-part{
+    background-image: url('../images/Rectangle\ 8\ \(1\).png');
+    width: 60%;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.discount-text{
+    background-color: orangered;
+    padding: 10px;
+    color: white;
+    width: 40%;
+    margin-top: 50px;
+    margin-left: 200px;
 }
